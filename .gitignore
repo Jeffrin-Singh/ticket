@@ -1,0 +1,66 @@
+# =====================================================================
+# GitIgnore for Tirupati Srivani Booking Automation
+# =====================================================================
+
+# --- Sensitive Credentials & Personal Data (DO NOT COMMIT) ---
+user_details.xlsx
+pilgrims_details.xlsx
+successful_bookings.xlsx
+*.xlsx
+*.xls
+*.csv
+.env
+*.env
+credentials.json
+
+# --- Large Binaries & Browser Distributions (>100MB blocked by GitHub) ---
+chrome-win/
+driver/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- Python Bytecode & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv/
+
+# --- Automation Runtimes, Logs & Temporary Artifacts ---
+logs/
+*.log
+screenshots/
+sessions/
+ready/
+undetected_cache/
+captcha_requests/
+otp_requests/
+scratch/
+testing/
+archive/
+
+# --- Dynamic CAPTCHAs & Run Artifacts ---
+captcha_original.png
+captcha_processed.png
+*.png
+*.jpg
+*.jpeg
+
+# --- IDE & Editor Configs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.agents/
+.continue/
+
+# --- OS Generated Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
