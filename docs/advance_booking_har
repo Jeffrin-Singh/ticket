@@ -1,0 +1,214 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "154.0"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "154.0"
+    },
+    "pages": [
+      {
+        "id": "page_2",
+        "pageTimings": {
+          "onContentLoad": -124112,
+          "onLoad": -124036
+        },
+        "startedDateTime": "2026-08-23T21:06:18.993+05:30",
+        "title": "https://tirupatibalaji.ap.gov.in/index.html#/srivaniPilgrim"
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2026-08-23T21:06:18.993+05:30",
+        "request": {
+          "bodySize": 75,
+          "method": "POST",
+          "url": "https://tirupatibalaji.ap.gov.in/dms/darshansummary",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "tirupatibalaji.ap.gov.in"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:154.0) Gecko/20100101 Firefox/154.0"
+            },
+            {
+              "name": "Accept",
+              "value": "application/json, text/plain, */*"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "name": "ttd-auth-token",
+              "value": "f655c8d2-bce4-4237-87ae-23d0e5b5d85d"
+            },
+            {
+              "name": "Content-Length",
+              "value": "75"
+            },
+            {
+              "name": "Origin",
+              "value": "https://tirupatibalaji.ap.gov.in"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Referer",
+              "value": "https://tirupatibalaji.ap.gov.in/index.html"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_MT8JLQ6M96=GS2.1.s1787303757$o7$g1$t1787306522$j60$l0$h0; _ga=GA1.1.1106241962.1784626332; _ga_K0YSRLFHMZ=GS2.1.s1787498887$o30$g0$t1787498887$j60$l0$h0"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [
+            {
+              "name": "_ga_MT8JLQ6M96",
+              "value": "GS2.1.s1787303757$o7$g1$t1787306522$j60$l0$h0"
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.1.1106241962.1784626332"
+            },
+            {
+              "name": "_ga_K0YSRLFHMZ",
+              "value": "GS2.1.s1787498887$o30$g0$t1787498887$j60$l0$h0"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 762,
+          "postData": {
+            "mimeType": "application/json",
+            "params": [],
+            "text": "{\"channelTypeId\":100002,\"darshanIdList\":[100078],\"roleName\":\"ROLE_PILGRIM\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/2",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Sun, 23 Aug 2026 15:36:19 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json;charset=UTF-8"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "cache-control",
+              "value": "no-cache, no-store, max-age=0, must-revalidate"
+            },
+            {
+              "name": "pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "expires",
+              "value": "0"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "1; mode=block"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "DENY"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "script-src 'self' https://securestage.paytmpayments.com https://static-staging.paytmpayments.com"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-cache-status",
+              "value": "MISS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "gzip"
+            },
+            {
+              "name": "X-Firefox-Spdy",
+              "value": "h2"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/json; charset=UTF-8",
+            "size": 316,
+            "text": "{\"availableDatesList\":[],\"startAndEndDates\":[\"23-Aug-2026\",\"20-Jan-2027\"],\"blockedDates\":[],\"bookedDates\":[\"04-Sep-2026\",\"06-Sep-2026\",\"08-Sep-2026\",\"14-Sep-2026\",\"28-Sep-2026\",\"07-Oct-2026\",\"24-Oct-2026\",\"27-Oct-2026\",\"05-Sep-2026\",\"12-Sep-2026\",\"30-Sep-2026\",\"02-Oct-2026\",\"22-Oct-2026\",\"27-Sep-2026\",\"01-Oct-2026\",\"31-Oct-2026\",\"01-Sep-2026\",\"11-Sep-2026\",\"06-Oct-2026\",\"23-Oct-2026\",\"26-Oct-2026\",\"02-Sep-2026\",\"09-Sep-2026\",\"13-Sep-2026\",\"03-Oct-2026\",\"08-Oct-2026\",\"10-Oct-2026\",\"03-Sep-2026\",\"07-Sep-2026\",\"26-Sep-2026\",\"05-Oct-2026\",\"21-Oct-2026\",\"25-Oct-2026\",\"29-Oct-2026\",\"30-Oct-2026\",\"09-Oct-2026\",\"28-Oct-2026\",\"10-Sep-2026\",\"29-Sep-2026\",\"04-Oct-2026\"],\"frequency\":null,\"darshanAmount\":\"500\",\"frequencyList\":null,\"availableDatesListSrivani\":{},\"availableDatesLisTnew\":{},\"srivaniAccomFlag\":null,\"accomAmount\":null,\"cautionDeposit\":null,\"darshanTypeId\":null,\"errorMsg\":null}"
+          },
+          "redirectURL": "",
+          "headersSize": 504,
+          "bodySize": 820
+        },
+        "cache": {},
+        "timings": {
+          "blocked": -1,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 50,
+          "receive": 0
+        },
+        "time": 50,
+        "_securityState": "secure",
+        "_priority": "Highest",
+        "serverIPAddress": "103.129.73.107",
+        "connection": "443",
+        "pageref": "page_2"
+      }
+    ]
+  }
+}

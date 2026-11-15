@@ -9,6 +9,9 @@ successful_bookings.xlsx
 *.xlsx
 *.xls
 *.csv
+*.db
+*.sqlite
+*.sqlite3
 .env
 *.env
 credentials.json
